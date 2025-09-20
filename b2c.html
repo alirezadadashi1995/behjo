@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>بازار B2C — والدین و دانش‌آموزان</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">بهجو</a>
+      <nav class="main-nav">
+        <a href="b2b.html">B2B</a>
+        <a href="b2c.html">B2C</a>
+        <a href="c2c.html">C2C</a>
+      </nav>
+      <a class="cta" href="b2c.html">خرید</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>بازار B2C — والدین و دانش‌آموزان</h1>
+    <div class="controls">
+      <label>جستجو: <input id="search" placeholder="نام محصول..."></label>
+      <label>فیلتر:
+        <select id="market-filter">
+          <option value="all">همه</option>
+          <option value="b2b">B2B</option>
+          <option value="b2c">B2C</option>
+          <option value="c2c">C2C</option>
+        </select>
+      </label>
+    </div>
+
+    <div id="product-grid" class="grid"></div>
+
+    <template id="product-card-template">
+      <article class="card">
+  <div class="card-media">
+    <img src="{img}" alt="{title}">
+    {badge}
+  </div>
+  <div class="card-body">
+    <h3 class="card-title">{title}</h3>
+    <p class="card-desc">{desc}</p>
+    <div class="card-meta">
+      <span class="price">{price}</span>
+      <button class="add-cart" data-id="{id}">افزودن به سبد</button>
+    </div>
+    <div class="rating-sample">
+      {rating_stars} <span class="rating-count">({rating_count})</span>
+    </div>
+    <a class="view-details" href="{details}">مشاهده جزئیات</a>
+  </div>
+</article>
+
+    </template>
+
+  </main>
+
+<script src="app.js"></script>
+</body>
+</html>
