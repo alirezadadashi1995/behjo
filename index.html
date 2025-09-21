@@ -1,58 +1,102 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>بهجو — بازار آموزشی</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>بهجو | بازار نوین محصولات و خدمات</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="logo" href="index.html">بهجو</a>
-      <nav class="main-nav">
-        <a href="b2b.html">B2B</a>
-        <a href="b2c.html">B2C</a>
-        <a href="c2c.html">C2C</a>
-        <a href="suppliers.html">تامین‌کنندگان</a>
-        <a href="schools.html">مدارس</a>
-      </nav>
-      <a class="cta" href="b2c.html">خرید سریع</a>
-    </div>
+
+  <!-- ===== Header ===== -->
+  <header>
+    <div class="logo">بهجو</div>
+    <nav>
+      <ul>
+        <li><a href="products.html">محصولات</a></li>
+        <li><a href="services.html">خدمات</a></li>
+        <li><a href="secondhand.html">کالاهای دست دوم</a></li>
+        <li><a href="about.html">درباره ما</a></li>
+        <li><a href="contact.html">تماس با ما</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <main class="container">
-    <section class="hero">
-      <h1>بازار مدرسه — سه بازار مستقل: B2B، B2C و C2C</h1>
-      <p>محصولات واقعی و نمونه — از لبنیات تا لوازم تحریر و کتاب‌های دست دوم.</p>
-      <div class="hero-ctas">
-        <a href="b2b.html" class="btn">B2B — مدارس و تامین‌کنندگان</a>
-        <a href="b2c.html" class="btn">B2C — والدین و دانش‌آموزان</a>
-        <a href="c2c.html" class="btn">C2C — محصولات دست دوم</a>
-      </div>
-    </section>
+  <!-- ===== Hero Section ===== -->
+  <section class="hero">
+    <h1>بازار نوین محصولات و خدمات</h1>
+    <p>بهجو پلی میان تولیدکنندگان، ارائه‌دهندگان خدمات و مردم عادی برای خرید و فروش آسان</p>
+    <a href="products.html" class="btn-primary">شروع کنید</a>
+  </section>
 
-    <section class="featured">
-      <h2>محصولات ویژه</h2>
-      <div class="grid" id="featured-grid"></div>
-    </section>
-
-    <section class="how">
-      <h2>چطور کار می‌کند</h2>
-      <ol>
-        <li>در هر بازار بگردید و محصولات را ببینید</li>
-        <li>به کارت محصول بروید تا نظرات نمونه و جزئیات را مشاهده کنید</li>
-        <li>به سبد اضافه کنید یا آگهی ثبت کنید (C2C)</li>
-      </ol>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <p>© بهجو — نسخه نیمه‌واقعی (MVP)</p>
+  <!-- ===== Brands Section ===== -->
+  <section class="brands">
+    <h2>ویترین برندها</h2>
+    <div class="brand-logos">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Kalleh_Logo.png" alt="کاله">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Tap30-logo.png" alt="تپسی">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/11/Digikala_logo.png" alt="دیجی کالا">
     </div>
+  </section>
+
+  <!-- ===== Categories Section ===== -->
+  <section class="grid">
+    <!-- محصولات -->
+    <div class="card">
+      <img src="https://via.placeholder.com/400x200.png?text=محصول+نمونه" alt="محصول نمونه">
+      <div class="card-content">
+        <h3>محصولات</h3>
+        <p>جدیدترین کالاهای تولیدکنندگان و فروشگاه‌های معتبر.</p>
+        <a href="products.html" class="btn">مشاهده محصولات</a>
+      </div>
+    </div>
+
+    <!-- خدمات -->
+    <div class="card">
+      <img src="https://via.placeholder.com/400x200.png?text=خدمت+نمونه" alt="خدمات نمونه">
+      <div class="card-content">
+        <h3>خدمات</h3>
+        <p>ثبت و سفارش خدمات تخصصی از ارائه‌دهندگان مورد اعتماد.</p>
+        <a href="services.html" class="btn">مشاهده خدمات</a>
+      </div>
+    </div>
+
+    <!-- دست دوم -->
+    <div class="card">
+      <img src="https://via.placeholder.com/400x200.png?text=کالای+دست+دوم" alt="کالای دست دوم">
+      <div class="card-content">
+        <h3>کالاهای دست دوم</h3>
+        <p>خرید و فروش آسان کالاهای کارکرده بین کاربران.</p>
+        <a href="secondhand.html" class="btn">مشاهده آگهی‌ها</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Comments Section ===== -->
+  <section class="comments">
+    <h2>نظرات کاربران</h2>
+    <div class="comment-box">
+      <p>من خیلی راحت تونستم کتاب‌های دست دومم رو بفروشم. 👌</p>
+      <span>- کاربر علی</span>
+    </div>
+    <div class="comment-box">
+      <p>از طریق بهجو بهترین خدمات تعمیرات رو پیدا کردم. عالی بود!</p>
+      <span>- کاربر مریم</span>
+    </div>
+    <div class="comment-box">
+      <p>محصولات برندها مستقیم و با قیمت مناسب به دستم رسید.</p>
+      <span>- کاربر رضا</span>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer>
+    <p>© 2025 بهجو - همه حقوق محفوظ است</p>
+    <p>
+      <a href="privacy.html">حریم خصوصی</a> | 
+      <a href="terms.html">قوانین</a>
+    </p>
   </footer>
 
-<script src="app.js"></script>
 </body>
 </html>
