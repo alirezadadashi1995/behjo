@@ -1,102 +1,240 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fa" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>بهجو | بازار نوین محصولات و خدمات</title>
+  <meta charset="utf-8">
+  <title>بهجو — بازار هوشمند مدارس و خانواده</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- ===== Header ===== -->
-  <header>
-    <div class="logo">بهجو</div>
-    <nav>
-      <ul>
-        <li><a href="products.html">محصولات</a></li>
-        <li><a href="services.html">خدمات</a></li>
-        <li><a href="secondhand.html">کالاهای دست دوم</a></li>
-        <li><a href="about.html">درباره ما</a></li>
-        <li><a href="contact.html">تماس با ما</a></li>
-      </ul>
-    </nav>
+  <!-- header -->
+  <header class="header">
+    <div class="inner">
+      <div class="left">
+        <div class="brand">بهجو</div>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="market-products.html">محصولات</a></li>
+          <li><a href="market-services.html">خدمات</a></li>
+          <li><a href="market-digital.html">آموزش/دیجیتال</a></li>
+          <li><a href="brands.html">برندها</a></li>
+          <li><a href="about.html">درباره ما</a></li>
+        </ul>
+      </nav>
+
+      <div class="actions">
+        <button class="icon-btn open-login">ورود / ثبت‌نام</button>
+        <button class="icon-btn open-cart"><span class="cart-count">0</span> سبد</button>
+      </div>
+    </div>
   </header>
 
-  <!-- ===== Hero Section ===== -->
+  <!-- hero -->
   <section class="hero">
-    <h1>بازار نوین محصولات و خدمات</h1>
-    <p>بهجو پلی میان تولیدکنندگان، ارائه‌دهندگان خدمات و مردم عادی برای خرید و فروش آسان</p>
-    <a href="products.html" class="btn-primary">شروع کنید</a>
-  </section>
-
-  <!-- ===== Brands Section ===== -->
-  <section class="brands">
-    <h2>ویترین برندها</h2>
-    <div class="brand-logos">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Kalleh_Logo.png" alt="کاله">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Tap30-logo.png" alt="تپسی">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/1/11/Digikala_logo.png" alt="دیجی کالا">
-    </div>
-  </section>
-
-  <!-- ===== Categories Section ===== -->
-  <section class="grid">
-    <!-- محصولات -->
-    <div class="card">
-      <img src="https://via.placeholder.com/400x200.png?text=محصول+نمونه" alt="محصول نمونه">
-      <div class="card-content">
-        <h3>محصولات</h3>
-        <p>جدیدترین کالاهای تولیدکنندگان و فروشگاه‌های معتبر.</p>
-        <a href="products.html" class="btn">مشاهده محصولات</a>
-      </div>
-    </div>
-
-    <!-- خدمات -->
-    <div class="card">
-      <img src="https://via.placeholder.com/400x200.png?text=خدمت+نمونه" alt="خدمات نمونه">
-      <div class="card-content">
-        <h3>خدمات</h3>
-        <p>ثبت و سفارش خدمات تخصصی از ارائه‌دهندگان مورد اعتماد.</p>
-        <a href="services.html" class="btn">مشاهده خدمات</a>
-      </div>
-    </div>
-
-    <!-- دست دوم -->
-    <div class="card">
-      <img src="https://via.placeholder.com/400x200.png?text=کالای+دست+دوم" alt="کالای دست دوم">
-      <div class="card-content">
-        <h3>کالاهای دست دوم</h3>
-        <p>خرید و فروش آسان کالاهای کارکرده بین کاربران.</p>
-        <a href="secondhand.html" class="btn">مشاهده آگهی‌ها</a>
+    <div class="wrap">
+      <h1>بازار هوشمند منابع و خدمات برای مدارس و خانواده‌ها</h1>
+      <p>خرید عمده مدارس، تخفیف برندها برای والدین، و بازار تبادل کتاب و لوازم — همه در یک پلتفرم.</p>
+      <div class="cta">
+        <a class="btn btn-primary" href="market-products.html">شروع خرید</a>
+        <a class="btn btn-outline" href="market-digital.html">کلاس‌ها و محتوا</a>
       </div>
     </div>
   </section>
 
-  <!-- ===== Comments Section ===== -->
-  <section class="comments">
-    <h2>نظرات کاربران</h2>
-    <div class="comment-box">
-      <p>من خیلی راحت تونستم کتاب‌های دست دومم رو بفروشم. 👌</p>
-      <span>- کاربر علی</span>
-    </div>
-    <div class="comment-box">
-      <p>از طریق بهجو بهترین خدمات تعمیرات رو پیدا کردم. عالی بود!</p>
-      <span>- کاربر مریم</span>
-    </div>
-    <div class="comment-box">
-      <p>محصولات برندها مستقیم و با قیمت مناسب به دستم رسید.</p>
-      <span>- کاربر رضا</span>
+  <!-- brand showcase -->
+  <section class="section">
+    <h3>ویترین برندها</h3>
+    <div class="brands-grid">
+      <div class="brand-card">
+        <img src="images/kalleh.png" alt="کاله">
+        <div class="info">
+          <h4>کاله</h4>
+          <p>تأمین لبنیات و میان‌وعده‌های سالم برای مدارس — بسته‌های دانش‌آموزی و قیمت سازمانی.</p>
+        </div>
+        <div class="cta"><a href="brands.html" class="btn">نمایش محصولات</a></div>
+      </div>
+
+      <div class="brand-card">
+        <img src="images/mihan.png" alt="میهن">
+        <div class="info">
+          <h4>میهن</h4>
+          <p>تأمین محصولات لبنی و بستنی با شرایط ویژه برای مدارس و باشگاه‌های دانش‌آموزی.</p>
+        </div>
+        <div class="cta"><a href="brands.html" class="btn">نمایش محصولات</a></div>
+      </div>
+
+      <div class="brand-card">
+        <img src="images/tapsi.png" alt="تپسی">
+        <div class="info">
+          <h4>تپسی</h4>
+          <p>راهکارهای ایاب‌وذهاب امن و فیلترشده برای سرویس مدارس با رانندگان مجاز.</p>
+        </div>
+        <div class="cta"><a href="brands.html" class="btn">جزئیات</a></div>
+      </div>
     </div>
   </section>
 
-  <!-- ===== Footer ===== -->
-  <footer>
-    <p>© 2025 بهجو - همه حقوق محفوظ است</p>
-    <p>
-      <a href="privacy.html">حریم خصوصی</a> | 
-      <a href="terms.html">قوانین</a>
-    </p>
+  <!-- categories -->
+  <section class="section center">
+    <h3>دسته‌ها</h3>
+    <div class="categories">
+      <div class="cat" data-target="schools-sub">
+        <!-- svg icon book -->
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 6.5C3 5.67 3.67 5 4.5 5h13c.83 0 1.5.67 1.5 1.5V19.5C19 20.33 18.33 21 17.5 21H4.5C3.67 21 3 20.33 3 19.5V6.5Z" stroke="#0b74ff" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <div>
+          <div class="title">بازار مدارس</div>
+          <div class="sub">تجهیزات و خدمات مدرسه</div>
+        </div>
+      </div>
+
+      <div class="cat" data-target="supplies-sub">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M3 7h18M7 11h10M5 15h14" stroke="#10b981" stroke-width="1.4" stroke-linecap="round"/></svg>
+        <div>
+          <div class="title">مایحتاج</div>
+          <div class="sub">خوراکی، پوشاک، نوشت‌افزار</div>
+        </div>
+      </div>
+
+      <div class="cat" data-target="exchange-sub">
+        <svg viewBox="0 0 24 24" fill="none"><path d="M12 5v14M5 12h14" stroke="#ff8a00" stroke-width="1.4" stroke-linecap="round"/></svg>
+        <div>
+          <div class="title">بازار تبادل</div>
+          <div class="sub">کتاب و لوازم قابل استفاده دوباره</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- sublists -->
+    <div id="schools-sub" class="sub-list hidden" style="margin-top:18px">
+      <div class="grid">
+        <div class="card"><h3>تجهیزات آموزشی</h3><p>وایت‌برد هوشمند، پروژکتور، میز و صندلی.</p><a class="btn" href="market-services.html">مشاهده</a></div>
+        <div class="card"><h3>خدمات مدرسه</h3><p>تغذیه، ایاب‌وذهاب، نگهداری و نظافت.</p><a class="btn" href="market-services.html">مشاهده</a></div>
+        <div class="card"><h3>بسته‌های سازمانی</h3><p>قراردادهای بلندمدت خرید با برندها.</p><a class="btn" href="market-products.html">مشاهده</a></div>
+      </div>
+    </div>
+
+    <div id="supplies-sub" class="sub-list hidden" style="margin-top:18px">
+      <div class="grid">
+        <div class="card"><h3>خوراکی و میان‌وعده</h3><p>بسته‌های سالم و اقتصادی.</p><a class="btn" href="market-products.html">مشاهده</a></div>
+        <div class="card"><h3>پوشاک و یونیفرم</h3><p>تولیدکنندگان معتبر و سایزبندی مدرسه‌ای.</p><a class="btn" href="market-products.html">مشاهده</a></div>
+        <div class="card"><h3>نوشت‌افزار</h3><p>دفتر، مداد، ست‌های لازم برای ترم جدید.</p><a class="btn" href="market-products.html">مشاهده</a></div>
+      </div>
+    </div>
+
+    <div id="exchange-sub" class="sub-list hidden" style="margin-top:18px">
+      <div class="grid">
+        <div class="card"><h3>کتاب‌های درسی</h3><p>کتاب‌های دست‌دوم و کم‌استفاده.</p><a class="btn" href="market-digital.html">مشاهده</a></div>
+        <div class="card"><h3>لوازم تحریر دوم</h3><p>دفترها، کیف‌ها و لوازم قابل استفاده دوباره.</p><a class="btn" href="market-digital.html">مشاهده</a></div>
+        <div class="card"><h3>ابزار ورزشی و جانبی</h3><p>توپ، راکت، وسایل ورزشی دست‌دوم.</p><a class="btn" href="market-digital.html">مشاهده</a></div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- featured -->
+  <section class="section">
+    <h3>آگهی‌های ویژه</h3>
+    <div class="grid">
+      <div class="product">
+        <div class="thumb">🖥️</div>
+        <h3>تبلت دانش‌آموزی (قرارداد B2B)</h3>
+        <p>پکیج 30 دستگاه با لایسنس آموزشی و گارانتی مدرسه‌ای.</p>
+        <div class="price-row">
+          <div class="badge">تخفیف ویژه</div>
+          <div class="price">₩ 8,400,000</div>
+        </div>
+        <div style="margin-top:12px">
+          <button class="add-cart btn" data-id="tablet_30" data-title="تبلت دانش‌آموزی" data-price="8400000">افزودن به سبد</button>
+        </div>
+        <div class="reviews-list" style="margin-top:8px">
+          <div class="review">مدرسه مهر: تحویل به موقع و نصب رایگان.</div>
+        </div>
+        <form class="comment-form" style="margin-top:10px">
+          <input name="name" placeholder="نام شما" style="padding:8px;border-radius:8px;border:1px solid #eee;width:48%;margin-left:4%" />
+          <input name="text" placeholder="نظر شما..." style="padding:8px;border-radius:8px;border:1px solid #eee;width:48%" />
+          <button class="btn" style="margin-top:8px">ثبت نظر</button>
+        </form>
+      </div>
+
+      <div class="product">
+        <div class="thumb">🥛</div>
+        <h3>بسته لبنیات میهن (B2C)</h3>
+        <p>پک 20 عددی محصولات سالم ویژه والدین.</p>
+        <div class="price-row">
+          <div></div>
+          <div class="price">₩ 120,000</div>
+        </div>
+        <div style="margin-top:12px">
+          <button class="add-cart btn" data-id="milk_pack" data-title="بسته لبنیات میهن" data-price="120000">افزودن به سبد</button>
+        </div>
+        <div class="reviews-list"><div class="review">ولی: با تخفیف مدرسه گرفتم؛ ارزش خرید داشت.</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- supplier quick signup in footer -->
+  <footer class="footer">
+    <div class="inner">
+      <div style="display:flex; gap:12px; align-items:center; justify-content:space-between; flex-wrap:wrap">
+        <div style="max-width:680px">
+          <h3 style="color:#fff">می‌خواهید تامین‌کننده باشید؟</h3>
+          <p style="color:#d1d5db">اگر صاحب برند، توزیع‌کننده یا ارائه‌دهنده خدمات هستید، فرم زیر را پر کنید تا تیم فروش با شما تماس بگیرد.</p>
+        </div>
+        <div class="supplier" style="max-width:520px">
+          <form id="supplier-form">
+            <input name="name" placeholder="نام شرکت / شخص" required />
+            <input name="contact" placeholder="ایمیل یا تلفن" required />
+            <input name="type" placeholder="نوع محصول یا خدمت" />
+            <button class="btn" type="submit" style="background:var(--primary); color:#fff">ارسال درخواست</button>
+          </form>
+        </div>
+      </div>
+
+      <div style="display:flex; justify-content:space-between; gap:12px; margin-top:18px; flex-wrap:wrap">
+        <div style="color:#9ca3af">© 2025 بهجو</div>
+        <div>
+          <a href="#" style="color:#d1d5db; text-decoration:none; margin-left:10px">قوانین</a>
+          <a href="#" style="color:#d1d5db; text-decoration:none; margin-left:10px">حریم خصوصی</a>
+        </div>
+      </div>
+    </div>
   </footer>
 
+  <!-- cart drawer -->
+  <div class="drawer cart-drawer" style="display:none">
+    <div class="box">
+      <div style="display:flex; justify-content:space-between; align-items:center">
+        <h3>سبد خرید</h3>
+        <button class="close-drawer icon-btn">بستن</button>
+      </div>
+      <div class="cart-body" style="margin-top:14px; min-height:80px"></div>
+      <div style="margin-top:14px; text-align:left">
+        <button class="btn" style="background:var(--success); color:#fff">پرداخت</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- login modal -->
+  <div class="modal login-modal" style="display:none">
+    <div class="box">
+      <div style="display:flex; justify-content:space-between; align-items:center">
+        <h3>ورود / ثبت‌نام</h3>
+        <button class="close-modal">بستن</button>
+      </div>
+      <form style="margin-top:12px">
+        <input placeholder="ایمیل یا شماره همراه" style="width:100%; padding:10px; border-radius:8px; border:1px solid #eee; margin-bottom:10px" />
+        <input placeholder="رمز عبور" type="password" style="width:100%; padding:10px; border-radius:8px; border:1px solid #eee; margin-bottom:10px" />
+        <div style="display:flex; gap:10px">
+          <button class="btn" style="background:var(--primary); color:#fff">ورود</button>
+          <button type="button" class="btn btn-outline close-modal">انصراف</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+<script src="script.js"></script>
 </body>
 </html>
